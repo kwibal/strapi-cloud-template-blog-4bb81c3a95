@@ -1,20 +1,16 @@
 {
   "kind": "singleType",
-  "collectionName": "blogs",
+  "collectionName": "terms_of_services",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "blog",
-    "description": ""
+    "singularName": "terms-of-service",
+    "pluralName": "terms-of-services",
+    "displayName": "Terms of Service "
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,

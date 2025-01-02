@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_twitter_twitters",
+  "info": {
+    "displayName": "twitter"
+  },
+  "options": {},
+  "attributes": {
+    "twitterTitle": {
+      "type": "string"
+    },
+    "twitterUrl": {
+      "type": "string"
+    },
+    "twitterImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
