@@ -1,21 +1,18 @@
 {
   "kind": "singleType",
-  "collectionName": "blogs",
+  "collectionName": "privacy_policies",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "blog",
-    "description": ""
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policies",
+    "displayName": "privacy policy"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "seo": {
+      "displayName": "seo",
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"

@@ -1,20 +1,16 @@
 {
   "kind": "singleType",
-  "collectionName": "blogs",
+  "collectionName": "faqs",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "blog",
-    "description": ""
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,

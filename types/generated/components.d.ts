@@ -1,5 +1,19 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface SeoSeo extends Struct.ComponentSchema {
+  collectionName: 'components_seo_seos';
+  info: {
+    displayName: 'seo';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.String;
+    twitter: Schema.Attribute.Component<'twitter.twitter', false>;
+    url: Schema.Attribute.String;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -62,14 +76,30 @@ export interface SharedSlider extends Struct.ComponentSchema {
   };
 }
 
+export interface TwitterTwitter extends Struct.ComponentSchema {
+  collectionName: 'components_twitter_twitters';
+  info: {
+    displayName: 'twitter';
+  };
+  attributes: {
+    twitterImage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    twitterTitle: Schema.Attribute.String;
+    twitterUrl: Schema.Attribute.String;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'seo.seo': SeoSeo;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
       'shared.slider': SharedSlider;
+      'twitter.twitter': TwitterTwitter;
     }
   }
 }

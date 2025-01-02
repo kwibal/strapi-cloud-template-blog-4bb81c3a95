@@ -1,20 +1,16 @@
 {
   "kind": "singleType",
-  "collectionName": "blogs",
+  "collectionName": "homes",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "blog",
-    "description": ""
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
