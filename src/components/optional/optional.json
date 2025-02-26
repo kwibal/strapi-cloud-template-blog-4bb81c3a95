@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_optional_optionals",
+  "info": {
+    "displayName": "optional"
+  },
+  "options": {},
+  "attributes": {
+    "alternateUrls": {
+      "type": "json"
+    },
+    "publishTime": {
+      "type": "string"
+    },
+    "modifiedTime": {
+      "type": "string"
+    }
+  }
+}

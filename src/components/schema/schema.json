@@ -1,0 +1,71 @@
+{
+  "collectionName": "components_schema_schemata",
+  "info": {
+    "displayName": "schema"
+  },
+  "options": {},
+  "attributes": {
+    "contextUrl": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "Keywords": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "brand": {
+      "type": "string",
+      "default": "kwibal"
+    },
+    "address": {
+      "type": "string",
+      "default": "Los Angeles, CA, USA"
+    },
+    "city": {
+      "type": "string",
+      "default": "Los Angeles"
+    },
+    "state": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string",
+      "default": "90012"
+    },
+    "contactPoint": {
+      "displayName": "contactPoint",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-point.contact-point"
+    },
+    "sameAs": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_open_graph_open_graphs",
+  "info": {
+    "displayName": "openGraph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "text"
+    },
+    "ogImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "og-image.og-image"
+    }
+  }
+}
